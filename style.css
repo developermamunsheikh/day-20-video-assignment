@@ -1,0 +1,108 @@
+/* body{
+    font-family: 'Rubik Moonrocks', cursive;
+} */
+.header{background: black;padding: 10px 0px;}
+.header .logo {line-height: 36px;}
+.header .logo a{font-size: 32px;color: #556270;text-decoration: none;margin: 0px;/*! padding: 10px 20px; */}
+.header nav ul{line-height: 16px;text-align: right;}
+.header nav ul li{display: inline-block;padding: 0px 10px;}
+.header nav ul li a{text-decoration: none;font-size: 18px;display: inline-block;padding: 5px 12px;color: white;}
+.header nav ul li a:hover{
+    background-color: #e1444c50;
+}
+.header button{/*! height: 30px; *//*! width: 120px; */padding: 5px 20px;background: #E1444D;border: none;border-radius: 5px;}
+.header button a{text-decoration: none;display: inline-block;/*! padding: 10px; */color: white;}
+
+
+/* Banner */
+.slider {
+	background-image: url(./img/bgggg.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 206px 0px;
+}
+.slider h1{
+    font-size: 60px;
+}
+/* Content */
+.content .content-left h1{
+    font-size: 60px;
+}
+.content .content-right ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: -26px;
+}
+.content .content-right p{
+    margin-left: -26px;
+}
+.content .content-right .paea{
+    margin-left: 2px;
+}
+/* Service Section */
+.service figure img{
+    width: 130px;
+    transition: .6s;
+}
+.service figure img:hover{
+    transform: scale(1.2);
+}
+/* About */
+.about article{
+    background-color: #d4e2f0b7;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    border-radius: 3px;
+}
+/* Pricing */
+.pricing nav ul .extra-color{
+    background-color: #D9232D;
+    
+}
+.pricing nav ul .extra-color a{
+    color: white;
+    
+}
+.pricing nav ul li{
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    
+}
+.pricing nav ul li a{
+    display: inline-block;
+    padding: 4px 20px;
+    text-decoration: none;
+    transition: .7s;
+    color: red;
+    border-radius: 5px;
+    
+}
+.pricing nav ul li a:hover{
+    background-color: #D9232D;
+    color: white;
+    transform: scale(1.2);
+}
+.pricing figure img{
+    width: 300px;
+    transition: .8s;
+}
+.m-end-1 {
+    margin-right: 114px;
+}
+.m-end-2 {
+    margin-left: 4px;
+}
+.pricing figure img:hover{
+    transform: scale(1.3);
+}
+/* COntact */
+ .mmm{
+    margin-left: 100px;
+} 
+html{
+    scroll-behavior: smooth;
+}
